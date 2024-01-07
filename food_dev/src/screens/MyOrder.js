@@ -9,7 +9,7 @@ export default function MyOrder() {
         <div>
             <Navbar/>
         </div>
-        <div className='container'>
+        {/* <div className='container'>
             <div className='row'>
                 {orderData.length !== 0 ? Array(orderData).map(data =>{
                     return(
@@ -34,7 +34,7 @@ export default function MyOrder() {
                     )
                 })}
             </div>
-        </div>
+        </div> */}
         <div>
             <Footer/>
         </div>
